@@ -1,6 +1,6 @@
 cask "huaji" do
-  version "2.1.1"
-  sha256 "fb7070944a49bd13a7d8e75f872604dbc1680ebbeb05fbb00bc4e0b07ed82a5e"
+  version "2.1.2"
+  sha256 "121a88f2cbd7285a11e1aa94a4282ff7bafdcc4c7409ad2fbf85396ee1c3b978"
 
   url "https://github.com/wuunicorn/homebrew-huaji/releases/download/v#{version}/Journal-Mac-#{version}-Notarized.zip"
   name "话记"
