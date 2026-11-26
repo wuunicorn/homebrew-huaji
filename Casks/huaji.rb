@@ -1,6 +1,6 @@
 cask "huaji" do
-  version "2.1.3"
-  sha256 "90df0a1bcb1e6a1d7f44882ba30398b0f45c0d23ff8ba9750e7f576f3aa3424f"
+  version "2.1.4"
+  sha256 "a57390f19d9d3dc1335039e93e87b9b1f07ef111f62577dfb51cf22a96903d2a"
 
   url "https://github.com/wuunicorn/homebrew-huaji/releases/download/v#{version}/Journal-Mac-#{version}-Notarized.zip"
   name "话记"
@@ -11,10 +11,6 @@ cask "huaji" do
   livecheck do
     url :url
     strategy :github_latest
-  end
-
-  on_arm do
-    depends_on formula: "homebrew/core/speech"
   end
 
   depends_on macos: :sequoia
