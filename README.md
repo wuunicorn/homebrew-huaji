@@ -9,6 +9,8 @@ brew install --cask wuunicorn/huaji/huaji
 
 如果你的 Homebrew 版本没有 `brew trust`，直接运行第二行。
 
+在 Apple 芯片 Mac 上，Homebrew 会自动安装本地说话人分离所需的 `speech`。Intel Mac 可照常安装话记。
+
 更新时退出话记，再运行 `brew upgrade --cask wuunicorn/huaji/huaji`。
 
 [产品主页](https://u3guang.xin/journal.html) · [Mac 下载](https://github.com/wuunicorn/homebrew-huaji/releases/latest)

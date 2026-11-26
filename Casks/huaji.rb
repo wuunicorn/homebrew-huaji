@@ -13,6 +13,10 @@ cask "huaji" do
     strategy :github_latest
   end
 
+  on_arm do
+    depends_on formula: "homebrew/core/speech"
+  end
+
   depends_on macos: :sequoia
 
   app "话记.app"
